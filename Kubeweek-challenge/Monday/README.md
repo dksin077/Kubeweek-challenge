@@ -6,5 +6,5 @@
 
 ## Acknowledgements
  - [Kubernets Installation and configuration](https://github.com/dksin077/Kubeweek-challenge/blob/master/Kubeweek-challenge/Monday/KubernetesInstallation.md)
- - [Topic needs to be cover in README](https://github.com/dksin077/Kubeweek-challenge/blob/master/Kubeweek-challenge/Monday/README.md)
+ - [Components Details](https://github.com/dksin077/Kubeweek-challenge/blob/master/Kubeweek-challenge/Monday/README.md](https://github.com/dksin077/Kubeweek-challenge/blob/master/Kubeweek-challenge/Monday/ComponentDetails.md))
  - [Kubernetes Architecture](https://github.com/dksin077/Kubeweek-challenge/blob/master/Kubeweek-challenge/Monday/Kubernetes-Architecture.png)
