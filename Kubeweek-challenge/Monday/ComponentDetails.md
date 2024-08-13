@@ -19,7 +19,7 @@
 
 ### Worker Nodes:
 - These nodes are the worker machines that run containerized applications. Each node runs one or more containers, and the node is responsible for managing the containers on that machine. Each node runs several components, including.
-Woker Node Components::
+## Woker Node Components::
 
 #### Kubelet:-
 - The kubelet is an agent that runs on each node and is responsible for managing the containers on that node. It communicates with the API server to receive instructions about which containers to run and how to run them.
