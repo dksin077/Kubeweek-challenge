@@ -42,7 +42,7 @@
 
 #### Service:-
 - The main purpose of service is to provide a stable IP address or DNS name, that's makes communication very easy between the pods, even as Pods are created, destroyed, or replaced.
-- Types of Servies :
+- Types of Servies
        - ClusterIP:- Expose the Pods with in cluster.
        - NodePort:- Expose the Pods Outside the cluster, When no reuirement of load balancing.
        - LoadBalancer:- Expose the Pods outside the cluster with loadbalancer for used cloud providers like AWS,GCP and Azure.
