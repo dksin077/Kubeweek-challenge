@@ -3,7 +3,7 @@
 
 ### Master Node Components::
 
-### MasterNode or Control Plane:- 
+#### MasterNode or Control Plane:- 
 - The master node is the control plane of Kubernetes. It is responsible for managing the state of the cluster, scheduling and deploying applications, and scaling them as needed. The master node consists of several components.
 
 #### APIServer:-
@@ -18,7 +18,7 @@
 #### ControllerManager:-
 - The controller manager is responsible for managing the various controllers in the system, which are responsible for ensuring that the desired state of the system is maintained. It monitor the cluster to make sure everything is running smoothly. If something goes wrong (e.g., a Pod crashes), they work to fix it.
   
-### Cloud Controller Manager:-
+#### Cloud Controller Manager:-
 - This is a specialized component that allows Kubernetes to interact with the underlying cloud provider, like AWS or Azure. It helps in tasks like setting up load balancers and persistent storage.
 
 
