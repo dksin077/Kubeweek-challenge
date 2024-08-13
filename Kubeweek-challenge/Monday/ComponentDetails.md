@@ -42,9 +42,12 @@
 
 #### Service:-
 - The main purpose of service is to provide a stable IP address or DNS name, that's makes communication very easy between the pods, even as Pods are created, destroyed, or replaced.
-- Types: ClusterIP(Expose Pods with in cluster), NodePort(Expose pods Outside the cluster, when no reuirement of load balancing), LoadBalancer(Expose pods outside the cluster with loadbalancer) and ExternalName(used to expose external service which is outside the cluster like RDS it can be resolved by Kubernetes pods directly).
-- Function: Service discover pods thourgh the labels and expose them with the consistent IP or DNS.
-- A service in Kubernetes makes sure that users or other applications can always get the right application or microservice from the right pod even if the pods change or move around.
+- Types of Servies :
+       - ClusterIP:- Expose the Pods with in cluster.
+       - NodePort:- Expose the Pods Outside the cluster, When no reuirement of load balancing.
+       - LoadBalancer:- Expose the Pods outside the cluster with loadbalancer for used cloud providers like AWS,GCP and Azure.
+       - ExternalName:- used to expose external service which is outside the cluster like RDS it can be resolved by Kubernetes pods directly.
+- Function: Service discover the pods thourgh the labels and expose them with the consistent IP or DNS.
 
 #### Volume:- 
 - This is like an external hard-drive that can be attached to a Pod to store data.
