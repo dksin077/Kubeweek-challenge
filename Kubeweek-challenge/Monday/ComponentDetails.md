@@ -1,8 +1,11 @@
 ## Kubernetes  Components Details
+
+
+### Master Node Components::
+
 ### MasterNode or Control Plane:- 
 - The master node is the control plane of Kubernetes. It is responsible for managing the state of the cluster, scheduling and deploying applications, and scaling them as needed. The master node consists of several components.
 
-### Master Node Components::
 #### APIServer:-
 - The API server is the central management point for the Kubernetes cluster. It handles API requests from users and other components in the system. It validates and processes these requests to the backend components.
 
