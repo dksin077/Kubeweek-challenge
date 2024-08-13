@@ -31,7 +31,8 @@
 
 #### Kube-Proxy:-
 - The kube-proxy is responsible for managing the network connectivity between pods and services. Kube-Proxy manages the network rules on each node to make sure traffic is properly routed to the correct pods.
-
+- kube-proxy focused on routing the services incoming/outgoing traffic to specific pod and providing the load balancing.
+  
 ## Other Components::
 #### Kubectl:-
 - A command-line tool for dealing with Kubernetes clusters is called kubectl. On a Kubernetes cluster, it is used to deploy, monitor, and manage applications. On most operating systems, including Linux, macOS, and Windows, kubectl can be installed because it is a component of the official Kubernetes distribution.
