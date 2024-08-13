@@ -41,6 +41,9 @@
 - A pod is the smallest deployable unit in Kubernetes. It is a logical host for one or more containers, and each pod runs on a single node. Pods can contain one or more containers that share the same network namespace and file system.
 
 #### Service:-
+- The main purpose of service is to provide a stable IP address or DNS name, that's makes communication very easy between the pods, even as Pods are created, destroyed, or replaced.
+- Types: ClusterIP(Expose Pods with in cluster), NodePort(Expose pods Outside the cluster, when no reuirement of load balancing), LoadBalancer(Expose pods outside the cluster with loadbalancer) and ExternalName(used to expose external service which is outside the cluster like RDS it can be resolved by Kubernetes pods directly).
+- Function: Service discover pods thourgh the labels and expose them with the consistent IP or DNS.
 - A service in Kubernetes makes sure that users or other applications can always get the right application or microservice from the right pod even if the pods change or move around.
 
 #### Volume:- 
