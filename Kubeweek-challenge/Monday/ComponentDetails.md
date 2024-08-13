@@ -26,7 +26,7 @@ Woker Node Components::
 
 #### Kube-Proxy:-
 - The kube-proxy is responsible for managing the network connectivity between pods and services. Kube-Proxy manages the network rules on each node to make sure traffic is properly routed to the correct pods.
-Other Components::
+## Other Components::
 #### Kubectl:-
 - A command-line tool for dealing with Kubernetes clusters is called kubectl. On a Kubernetes cluster, it is used to deploy, monitor, and manage applications. On most operating systems, including Linux, macOS, and Windows, kubectl can be installed because it is a component of the official Kubernetes distribution.
 
