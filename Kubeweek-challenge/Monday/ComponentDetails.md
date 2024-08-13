@@ -45,9 +45,9 @@
 - Types of Servies
   - ClusterIP:- Expose the Pods with in a cluster.
   - NodePort:- Expose the Pods Outside the cluster, When no reuirement of load balancing.
-  - LoadBalancer:- Expose the Pods outside the cluster with loadbalancer for used cloud providers like AWS,GCP and Azure.
+  - LoadBalancer:- Expose the Pods outside the cluster with loadbalancer for this we used cloud providers like AWS,GCP and Azure.
   - ExternalName:- used to expose external service which is outside the cluster like RDS it can be resolved by Kubernetes pods directly.
-- Function: Service discover the pods thourgh the labels and expose them with the consistent IP or DNS.
+- Function: Service discover the pods through the labels and expose them with the consistent IP or DNS.
 
 #### Volume:- 
 - This is like an external hard-drive that can be attached to a Pod to store data.
@@ -66,10 +66,10 @@ Conatiner Runtime:-
 - CNI is like the network installer who sets up the necessary wiring (network interfaces) so that all containers can talk to each other and the outside world.
 
 #### CRI-O(Conatiner Runtime Interface Object):-
-- CRI-O is a tool that helps manage containers in Kubernetes. It helps to run docker,conatinerd etc in containers.
+- CRI-O is a tool that helps to manage containers in Kubernetes. It helps to run docker,conatinerd etc in containers.
 
 #### Short note for the communication between master and worker node:
 - Control Plane (Management Office): This is where the factory managers (API Server) are. They send instructions to the workers (Kubelets) on the factory floor (worker nodes).
 - Worker Nodes (Factory Floor): This is where the actual work happens. The workers (Kubelets) report back to the management office (API Server) about their progress and any issues.
-- I (Communication System): This is like the internal phone system that allows everyone to communicate effectively within the factory and beyond.
+- CNI (Communication System): This is like the internal phone system that allows everyone to communicate effectively within the factory and beyond.
 - Kube-Proxy (Routing System): This ensures that messages (network traffic) get to the right worker (Pod) on the factory floor.
