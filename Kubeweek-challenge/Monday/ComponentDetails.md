@@ -1,6 +1,6 @@
 ## Kubernetes  Components Details
 ### MasterNode or Control Plane:- 
-- The master node is the control plane of Kubernetes. It is responsible for managing the state of the cluster, scheduling and deploying applications, and scaling them as needed. The master node consists of several components, including.
+- The master node is the control plane of Kubernetes. It is responsible for managing the state of the cluster, scheduling and deploying applications, and scaling them as needed. The master node consists of several components.
 
 ### Master Node Components::
 #### APIServer:-
