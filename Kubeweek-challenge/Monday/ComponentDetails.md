@@ -63,9 +63,8 @@ Conatiner Runtime:-
 - This is the software used to run containers. Docker is commonly used, but other runtimes like containerd can also be used.
 
 #### CNI(Container Network Interface):-
-- CNI is responsible for setting up the network for containers so they can communicate with each other and the outside world. It connects all the network interfaces correctly so that data can flow between the containers.
-- CNI is like the network installer who sets up the necessary wiring (network interfaces) so that all containers can talk to each other and the outside world.
-
+- CNI work is to manage pod-level networking, So that every pod get there IP address and easily communicate with each other.
+  
 #### CRI-O(Conatiner Runtime Interface Object):-
 - CRI-O is a tool that helps to manage containers in Kubernetes. It helps to run docker,conatinerd etc in containers.
 
