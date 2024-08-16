@@ -147,8 +147,8 @@ master@k8s-master:~$ sudo kubeadm init \
 [upload-config] Storing the configuration used in ConfigMap "kubeadm-config" in the "kube-system" Namespace
 [kubelet] Creating a ConfigMap "kubelet-config" in namespace kube-system with the configuration for the kubelets in the cluster
 [upload-certs] Skipping phase. Please see --upload-certs
-[mark-control-plane] Marking the node k8s-master.nvtienanh.local as control-plane by adding the labels: [node-role.kubernetes.io/control-plane node.kubernetes.io/exclude-from-external-load-balancers]
-[mark-control-plane] Marking the node k8s-master.nvtienanh.local as control-plane by adding the taints [node-role.kubernetes.io/control-plane:NoSchedule]
+[mark-control-plane] Marking the node k8s-master as control-plane by adding the labels: [node-role.kubernetes.io/control-plane node.kubernetes.io/exclude-from-external-load-balancers]
+[mark-control-plane] Marking the node k8s-master as control-plane by adding the taints [node-role.kubernetes.io/control-plane:NoSchedule]
 [bootstrap-token] Using token: daii9y.g4dq24u6irkz4pt0
 [bootstrap-token] Configuring bootstrap tokens, cluster-info ConfigMap,RBAC Roles
 [bootstrap-token] Configured RBAC rules to allow Node Bootstrap tokens to get nodes
@@ -216,7 +216,7 @@ To further debug and diagnose cluster problems, use 'kubectl cluster-info dump'.
 master@k8s-master:~$ kubectl get nodes
 
 NAME                         STATUS     ROLES           AGE   VERSION
-k8s-master.nvtienanh.local   NotReady   control-plane   55m   v1.26.1
+k8s-master   NotReady   control-plane   55m   v1.26.1
 ```
 
 ### NOTE:-We see that the control plane is running and currently there is only the master node, we will proceed to add worker nodes to this cluster.
