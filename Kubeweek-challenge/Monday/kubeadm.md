@@ -24,7 +24,7 @@ sudo vi /etc/hosts
 192.168.100.4 k8s-worker
 ```
 
-- ON worker
+- ON Worker
 
 ```
 sudo hostnamectl set-hostname "k8s-worker"
