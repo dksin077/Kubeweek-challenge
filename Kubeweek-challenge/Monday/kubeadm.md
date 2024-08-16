@@ -24,7 +24,7 @@ sudo vi /etc/hosts
 192.168.100.4 k8s-worker
 ```
 
-- On worker
+- ON worker
 
 ```
 sudo hostnamectl set-hostname "k8s-worker"
@@ -83,7 +83,7 @@ sudo systemctl restart containerd
 sudo systemctl enable containerd
 ```
 
-### Install Kubernetesi, Run the following commands on all nodes
+### Run the following commands on all nodes to install the Kubernetes
 
 ```
 curl -s https://packages.cloud.google.com/apt/doc/apt-key.gpg | sudo apt-key add -
