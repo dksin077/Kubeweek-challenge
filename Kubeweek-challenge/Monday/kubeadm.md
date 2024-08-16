@@ -62,7 +62,7 @@ net.bridge.bridge-nf-call-iptables = 1
 net.ipv4.ip_forward = 1
 EOF
 
-# Then reloadsysctl
+# Then reload sysctl
 sudo sysctl --system
 ```
 
