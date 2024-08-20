@@ -22,7 +22,7 @@
 - This is a specialized component that allows Kubernetes to interact with the underlying cloud provider, like AWS or Azure. It helps in tasks like setting up load balancers and persistent storage.
 
 
-## Woker Node Components::
+## Worker Node Components::
 ### Worker Nodes:
 - These nodes are the worker machines that run containerized applications. Each node runs one or more containers, and the node is responsible for managing the containers on that machine. Each node runs several components, including.
 
