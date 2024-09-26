@@ -197,6 +197,6 @@ kops create cluster \
     hacluster.k8s.local
 ```
 ### Document References
-https://kops.sigs.k8s.io/getting_started/install/
-https://kops.sigs.k8s.io/getting_started/aws/
-https://kops.sigs.k8s.io/operations/high_availability/#advanced-example
+- https://kops.sigs.k8s.io/getting_started/install/
+- https://kops.sigs.k8s.io/getting_started/aws/
+- https://kops.sigs.k8s.io/operations/high_availability/#advanced-example
