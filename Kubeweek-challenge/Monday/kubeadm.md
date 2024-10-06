@@ -92,7 +92,7 @@ sudo apt update
 sudo apt install -y kubelet kubeadm kubectl
 or
 use below url if all three are not able to install, follow the given steps mention in URL.
-- [Install kubernetes commands](https://kubernetes.io/docs/setup/production-environment/tools/kubeadm/install-kubeadm/)
+  - [Kubernetes Architecture](https://kubernetes.io/docs/setup/production-environment/tools/kubeadm/install-kubeadm/)
 sudo apt-mark hold kubelet kubeadm kubectl
 ```
 
