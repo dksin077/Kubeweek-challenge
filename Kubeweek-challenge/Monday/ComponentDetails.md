@@ -30,6 +30,7 @@
 - The kubelet is an agent that runs on each node and is responsible for managing the containers on that node. It communicates with the API server to receive instructions about which containers to run and how to run them.
 
 #### Kube-Proxy:-
+- Kube-proxy is responsible for directing traffic to the right container based on IP and the port number of incoming requests.
 - The kube-proxy is responsible for managing the network connectivity between pods and services. Kube-Proxy manages the network rules on each node to make sure traffic is properly routed to the correct pods.
 - kube-proxy focused on routing the services incoming/outgoing traffic to specific pod and providing the load balancing.
   
